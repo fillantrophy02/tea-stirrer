@@ -3,7 +3,7 @@ import { Card, Image, Button } from 'react-bootstrap';
 
 const colors = ["#fcb040", "#ee2b7b", "#09a1b7"];
 
-class FlashingPage extends React.Component {
+class FlashingCard extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -44,4 +44,4 @@ class FlashingPage extends React.Component {
     }
 }
 
-export default FlashingPage;
+export default FlashingCard;

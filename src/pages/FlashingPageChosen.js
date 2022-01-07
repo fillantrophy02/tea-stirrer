@@ -1,14 +1,27 @@
 import React from 'react';
 import './FlashingPageChosen.css';
-import FlashingPage from '../components/FlashingPage';
+import FlashingCard from '../components/FlashingCard';
 import { unmountComponentAtNode } from 'react-dom';
-import { Card } from 'react-bootstrap';
+import { Card, Container } from 'react-bootstrap';
+
+const ChosenPage = 
+    <Container>
+        <div className="chosen-background">
+            <div style={{color: "white"}}>[Logo.png]</div>
+            <Card className="chosen-card">
+                <Card.Text>
+                    YOU ARE THE<br></br>
+                    CHOSEN ONE
+                </Card.Text>
+            </Card>
+        </div>;
+    </Container>
 
 class FlashingPageChosen extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            page: <FlashingPage />
+            page: <FlashingCard />
         };
         this.endFlashing = this.endFlashing.bind(this);
     }   
@@ -22,10 +35,7 @@ class FlashingPageChosen extends React.Component {
 
     endFlashing() {
         this.setState({
-            page:             
-                <Card className="chosen-page">
-                    YOU have been chosen
-                </Card>
+            page: ChosenPage
         })
     }
 

@@ -1,15 +1,30 @@
 
-.chosen-page {
+.chosen-background {
     position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
     background-color: #300C51;
-    text-align: center;
+}
+
+.chosen-card {
+    width: 60%;
+    height: 6rem;
+    background-image: url('../assets/placeholder-neon-button.jpg');
     color: white;
-    line-height: 50rem;
-    font-size: large
+    font-size: large;
+    text-align: center;
+    line-height: 1.5rem;
+    margin: auto;
+    padding: 1.5rem;
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .div {
