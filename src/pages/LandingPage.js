@@ -12,6 +12,7 @@ class LandingPage extends React.Component {
 
     render() {
         return (
+            <div className="chosen-background">
             <Container>
                 <Row>
                     <Col>Hi, L</Col>
@@ -35,6 +36,7 @@ class LandingPage extends React.Component {
                     </Col>
                 </Row>
             </Container>
+            </div>
         )
     }
 }

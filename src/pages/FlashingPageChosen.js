@@ -3,17 +3,13 @@ import './FlashingPageChosen.css';
 import FlashingCard from '../components/FlashingCard';
 import { unmountComponentAtNode } from 'react-dom';
 import { Card, Container } from 'react-bootstrap';
+import NeonButton from '../components/NeonButton';
 
 const ChosenPage = 
     <Container>
         <div className="chosen-background">
             <div style={{color: "white"}}>[Logo.png]</div>
-            <Card className="chosen-card">
-                <Card.Text>
-                    YOU ARE THE<br></br>
-                    CHOSEN ONE
-                </Card.Text>
-            </Card>
+            <NeonButton text="YOU ARE THE CHOSEN ONE" />
         </div>;
     </Container>
 

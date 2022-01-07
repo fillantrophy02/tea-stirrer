@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Image, Button } from 'react-bootstrap';
-import NeonButtonImage from '../assets/placeholder-neon-button.jpg';
+import ButtonImage from '../assets/button.png';
 import './NeonButton.css';
 
 class NeonButton extends React.Component {
@@ -10,12 +10,15 @@ class NeonButton extends React.Component {
 
     render() {
         return (
-            // <Card className="neon-button">
-            //     <Card.ImgOverlay>
-            //         <Card.Text>{ this.props.text }</Card.Text>
-            //     </Card.ImgOverlay>
-            // </Card>
-            <Button className="neon-button">{ this.props.text }</Button>
+            // <Button className="neon-button">{ this.props.text }</Button>
+            <Card className="chosen-card">
+                <Card.Img src={ButtonImage}></Card.Img>
+                <Card.ImgOverlay>
+                    <Card.Text className="chosen-card-overlay">
+                        {this.props.text}
+                    </Card.Text>
+                </Card.ImgOverlay>
+            </Card>
         )
     }
 }

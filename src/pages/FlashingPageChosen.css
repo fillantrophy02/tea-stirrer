@@ -5,19 +5,22 @@
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: #300C51;
+    background-color: black;
+}
+
+.chosen-card-overlay {
+    background-color: rgba(0,0,0,0);
+    color: white;
+    font-size: large;
+    text-align: center;
+    line-height: auto;
 }
 
 .chosen-card {
     width: 60%;
-    height: 6rem;
-    background-image: url('../assets/placeholder-neon-button.jpg');
-    color: white;
-    font-size: large;
-    text-align: center;
-    line-height: 1.5rem;
+    height: auto;
     margin: auto;
-    padding: 1.5rem;
+    background-color: rgba(0,0,0,0);
 }
 
 .container {
