@@ -1,6 +1,9 @@
 
-.question-button {
-    border-style: none;
+.game-code {
+    width: 4rem;
+    height: 4rem;
+    font-size: large;
+    text-align: center;
 }
 
 .container {
@@ -14,4 +17,8 @@
     position: absolute;
     bottom: 2rem;
     width: 100%;
+}
+
+.div {
+    margin: auto;
 }

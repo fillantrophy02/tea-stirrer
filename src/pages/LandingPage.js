@@ -30,7 +30,7 @@ class LandingPage extends React.Component {
                     <Col>
                         <Stack gap={2}>
                             <NeonButton text="JOIN GAME"/>
-                            <NeonButton text="START GAME"/>
+                            <NeonButton text="START A NEW GAME"/>
                         </Stack>
                     </Col>
                 </Row>

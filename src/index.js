@@ -5,11 +5,13 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
 import LandingPage from './pages/LandingPage';
+import WaitingPage from './pages/WaitingPage';
 import 'bootstrap/dist/css/bootstrap.min.css'; // need to use this cause incompatibility btw react-bootstrap and bootstrap
 
 ReactDOM.render(
   <React.StrictMode>
-    <LandingPage />
+    {/* <LandingPage /> */}
+    <WaitingPage />
   </React.StrictMode>,
   document.getElementById('root')
 );
