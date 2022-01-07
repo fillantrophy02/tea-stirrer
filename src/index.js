@@ -6,12 +6,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
 import LandingPage from './pages/LandingPage';
 import WaitingPage from './pages/WaitingPage';
+import FlashingPageChosen from './pages/FlashingPageChosen';
 import 'bootstrap/dist/css/bootstrap.min.css'; // need to use this cause incompatibility btw react-bootstrap and bootstrap
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <LandingPage /> */}
-    <WaitingPage />
+    <FlashingPageChosen />
   </React.StrictMode>,
   document.getElementById('root')
 );

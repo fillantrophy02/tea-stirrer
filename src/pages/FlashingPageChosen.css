@@ -1,0 +1,17 @@
+
+.chosen-page {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #300C51;
+    text-align: center;
+    color: white;
+    line-height: 50rem;
+    font-size: large
+}
+
+.div {
+    margin: auto;
+}
