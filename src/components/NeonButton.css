@@ -1,0 +1,10 @@
+.neon-button {
+    margin: auto;
+    width: 18rem;
+    height: 3rem;
+}
+
+.neon-button img {
+    width: 100%;
+    height: 100%;
+}
