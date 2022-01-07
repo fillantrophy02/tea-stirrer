@@ -12,7 +12,7 @@ class LandingPage extends React.Component {
 
     render() {
         return (
-            <NeonButton/>
+            <NeonButton text="Start"/>
         )
     }
 }

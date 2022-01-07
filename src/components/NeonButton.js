@@ -11,10 +11,8 @@ class NeonButton extends React.Component {
     render() {
         return (
             <Card className="neon-button">
-                <Card.Img src="./assets/placeholder-neon-button.jpg" alt="[image.jpg]" />
-                <Card.Img as={Image} src={NeonButtonImage} fluid={true} alt="[image.jpg]" /> 
                 <Card.ImgOverlay>
-                    <Card.Text>[Start]</Card.Text>
+                    <Card.Text>{ this.props.text }</Card.Text>
                 </Card.ImgOverlay>
             </Card>
         )

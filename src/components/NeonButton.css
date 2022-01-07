@@ -1,10 +1,11 @@
 .neon-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
     width: 18rem;
     height: 3rem;
-}
-
-.neon-button img {
-    width: 100%;
-    height: 100%;
+    background-image: url('../assets/placeholder-neon-button.jpg');
+    color: white;
+    font-size: large;
 }
