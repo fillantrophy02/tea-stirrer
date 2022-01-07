@@ -2,8 +2,8 @@ import React from 'react';
 import { Card, Stack, Button, Container, Row, Col, Image } from 'react-bootstrap';
 import './responses-load.css';
 import Timer from './timer.js'
-import TimerBorder from './static/timer-frame.png';
-import PlayerResponse from './static/player-response.png';
+import TimerBorder from '../assets/timer-frame.png';
+import PlayerResponse from '../assets/player-response.png';
 
 class ResponsesLoad extends React.Component {
     constructor(props) {
