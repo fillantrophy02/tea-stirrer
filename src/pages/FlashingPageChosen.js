@@ -42,4 +42,4 @@ class FlashingPageChosen extends React.Component {
     }
 }
 
-export default FlashingPageChosen;
+export default FlashingPageChosen; 
