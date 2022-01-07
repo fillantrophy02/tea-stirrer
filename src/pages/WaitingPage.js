@@ -13,9 +13,9 @@ class WaitingPage extends React.Component {
     render() {
         return (
             <Container>
-                <Row>
+                <Row style={{ paddingTop: "10px"}}>
                     <Col>
-                        <NeonImage style={{width: "40%"}} image={TeacupImage}/>
+                        <NeonImage style={{width: "80%", margin:"auto"}} image={TeacupImage}/>
                     </Col>
                 </Row>
                 <Row style={{ paddingTop: "3rem"}}>
