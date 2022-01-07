@@ -2,8 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
-import LandingPage from './pages/Landing';
+import LandingPage from './pages/LandingPage';
+import 'bootstrap/dist/css/bootstrap.min.css'; // need to use this cause incompatibility btw react-bootstrap and bootstrap
 
 ReactDOM.render(
   <React.StrictMode>
