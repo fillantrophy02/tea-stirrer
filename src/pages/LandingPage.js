@@ -34,8 +34,8 @@ class LandingPage extends React.Component {
                 <Row style={{ paddingTop: "30px" }}>
                     <Col>
                         <NeonImage style={{
-                            width: "150%",
-                            marginLeft: "-35px"
+                            width: "170%",
+                            marginLeft: "-55px"
                         }} image={TeacupImage} />
                     </Col>
                 </Row>

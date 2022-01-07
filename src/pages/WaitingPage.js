@@ -4,6 +4,9 @@ import './WaitingPage.css';
 import NeonButton from '../components/NeonButton';
 import NeonImage from '../components/NeonImage';
 import TeacupImage from '../assets/teacup-rotated.png';
+import PlayersBar from '../assets/players-bar.png';
+import PlayersName from '../assets/players-name.png';
+import PlayersList from '../components/PlayersList';
 
 class WaitingPage extends React.Component {
     constructor(props) {
@@ -13,14 +16,14 @@ class WaitingPage extends React.Component {
     render() {
         return (
             <Container>
-                <Row style={{ paddingTop: "10px"}}>
+                <Row style={{ paddingTop: "15px"}}>
                     <Col>
-                        <NeonImage style={{width: "80%", margin:"auto"}} image={TeacupImage}/>
+                        <NeonImage style={{width: "100%", margin:"auto"}} image={TeacupImage}/>
                     </Col>
                 </Row>
-                <Row style={{ paddingTop: "3rem"}}>
+                <Row style={{ paddingTop: "20px"}}>
                     <Col>
-                        <Card style={{ margin: "auto", width: "16rem", border: "none"}}>
+                        <Card style={{ marginLeft: "37px", width: "60%", border: "none", backgroundColor: "rgba(0,0,0,0)"}}>
                         <Stack direction="horizontal" gap={0}>
                             <Form.Control className="game-code" placeholder="2" />
                             <Form.Control className="game-code" placeholder="4" />
@@ -30,15 +33,9 @@ class WaitingPage extends React.Component {
                         </Card>
                     </Col>
                 </Row>
-                <Row style={{ paddingTop: "3rem" }}>
+                <Row style={{ paddingTop: "20px" }}>
                     <Col>
-                        <Card style={{ margin: "auto", width: "80%", height: "250px"}}>
-                            <ListGroup as="ol" numbered>
-                                <ListGroup.Item as="li">tyson1222</ListGroup.Item>
-                                <ListGroup.Item as="li">stichisthebest</ListGroup.Item>
-                                <ListGroup.Item as="li">memeMeMEME</ListGroup.Item>
-                            </ListGroup>
-                        </Card>
+                        <PlayersList />
                     </Col>
                 </Row>
                 <Row className="bottom-row">

@@ -2,19 +2,23 @@ body {
     background-color: #0B0A28;
     font-size: 26px;
     color: #fff;
-    text-shadow: 0 0 3.5px #fff,
+    /* text-shadow: 0 0 3.5px #fff,
         0 0 2.5px #fff,
         0 0 7.5px #fff,
         0 0 10.5px #ff75ac,
         0 0 20.5px #ff75ac,
-        0 0 23px #ff75ac;
+        0 0 23px #ff75ac; */
 }
 
 .game-code {
     width: 4rem;
     height: 4rem;
-    font-size: large;
+    font-size: 24px;
     text-align: center;
+    border-color: #09A1B7;
+    background-color: rgba(0,0,0,0);
+    border-width: 2px;
+    color: white;
 }
 
 .container {
