@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<body>
+
+<head> 
+    <style>
+        body {
+        font-family: sans-serif;
+        display: grid;
+        height: 100vh;
+        place-items: center;
+        background-color: #0B0A28;
+        }
+
+        .base-timer {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+.base-timer__label {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 160px;
+}
+
+        .timer-text {
+        /* animation: flicker 1.5s infinite alternate; */
+        color: #000;
+        position: absolute;
+        top: 62%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        text-shadow: 0 0 7px #fff,
+      0 0 5px #fff,
+      0 0 15px #fff,
+      0 0 21px #FFF7EB,
+      0 0 41px #FFF7EB,
+      0 0 46px #FFF7EB;
+        
+        }
+        .container {
+        position: relative;
+        text-align: center;
+        color: white;
+        margin-bottom: 50%;
+        margin-top: 20%;
+
+       
+        }
+        .text-bottom {
+        color: #000;
+        position: absolute;
+        bottom: -25%;
+        right: 0%;
+        text-align: center;
+        font-size: 100px;
+        text-shadow: 0 0 7px #fff,
+      0 0 5px #fff,
+      0 0 15px #fff,
+      0 0 21px #FDCE86,
+      0 0 41px #FDCE86,
+      0 0 46px #FDCE86;
+  
+        }
+
+        .question {
+          color: #000;
+        position: absolute;
+        top: 23%;
+        left: 48%;
+        transform: translate(-50%, -30%);
+        text-shadow: 0 0 7px #fff,
+      0 0 5px #fff,
+      0 0 15px #fff,
+      0 0 21px #FFF7EB,
+      0 0 41px #FFF7EB,
+      0 0 46px #FFF7EB;
+        font-size: 80px;
+        }
+        .response {
+        position: absolute;
+        top: 47.5%;
+        left: 48%;
+        transform: translate(-50%, -30%);
+        
+        
+
+        }
+
+    
+        input[type=text], select {
+          width: 80%;
+          background-color: #FEE6C3;
+          color: #EE2B7B;
+          font-size: 50px;
+          border-radius: 15px;
+         }
+
+       
+
+    </style>
+</head>
+<div class="container">
+    <img src="../assets/qn_timer.png" alt="border-timer" style="width:100%;">
+    <p class="question"> Do I really like ____? </p>
+    <div id="app" class="timer-text"></div>
+    <img src="../assets/button-b.png" alt="border-timer" style="width:60%;">
+    <div class="response">
+    <form>
+      <input type="text" id="fname" name="firstname" placeholder="      <answer>">
+    </form>
+    </div>
+
+    <img src="../assets/submit.png" alt="border-timer" style="width:70%;">
+
+
+</div>
+
+
+</div>
+</div>
+
+
+<script>
+
+
+
+const TIME_LIMIT = 20;
+let timePassed = 0;
+let timeLeft = TIME_LIMIT;
+let timerInterval = null;
+
+document.getElementById("app").innerHTML = `
+<div class="base-timer">
+  
+  <span id="base-timer-label" class="base-timer__label">${formatTime(
+    timeLeft
+  )}</span>
+</div>
+`;
+
+startTimer();
+
+function onTimesUp() {
+  clearInterval(timerInterval);
+}
+
+function startTimer() {
+  timerInterval = setInterval(() => {
+    timePassed = timePassed += 1;
+    timeLeft = TIME_LIMIT - timePassed;
+    document.getElementById("base-timer-label").innerHTML = formatTime(
+      timeLeft
+    );
+    if (timeLeft === 0) {
+      onTimesUp();
+    }
+  }, 1000);
+}
+
+function formatTime(time) {
+  const minutes = Math.floor(time / 60);
+  let seconds = time % 60;
+
+  if (seconds < 10) {
+    seconds = `0${seconds}`;
+  }
+
+  return `${minutes}:${seconds}`;
+}
+</script>
+
+
+</body>
+</HTML>
