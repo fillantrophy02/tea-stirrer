@@ -10,18 +10,30 @@
 }
 
 .chosen-card-overlay {
-    background-color: rgba(0,0,0,1);
-    color: white;
+    color: #000;
     font-size: large;
     text-align: center;
     line-height: auto;
     border: none;
+    font-size: 100px;
+    text-shadow: 0 0 3.5px #fff,
+        0 0 2.5px #fff,
+        0 0 7.5px #fff,
+        0 0 10.5px #ff75ac,
+        0 0 20.5px #ff75ac,
+        0 0 23px #ff75ac;
 }
 
 .chosen-card {
-    width: 60%;
-    height: 4rem;
+    width: 100%;
+    height: auto;
     margin: auto;
     background-color: rgba(0,0,0,1);
     border: none;
+}
+
+.chosen-image {
+    width: 100%;
+    height: 4rem;
+    margin: auto;
 }

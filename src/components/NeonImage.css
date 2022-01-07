@@ -1,0 +1,16 @@
+.chosen-card-overlay {
+    background-color: rgba(0,0,0,0);
+    color: white;
+    font-size: large;
+    text-align: center;
+    line-height: auto;
+    border: none;
+}
+
+.chosen-card {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: rgba(0,0,0,0);
+    border: none;
+}

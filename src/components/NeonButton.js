@@ -12,7 +12,7 @@ class NeonButton extends React.Component {
         return (
             // <Button className="neon-button">{ this.props.text }</Button>
             <Card className="chosen-card">
-                <Card.Img src={ButtonImage}></Card.Img>
+                <Card.Img className="chosen-image" src={ButtonImage}></Card.Img>
                 <Card.ImgOverlay>
                     <Card.Text className="chosen-card-overlay">
                         {this.props.text}

@@ -11,8 +11,9 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // need to use this cause incompa
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <LandingPage /> */}
-    <FlashingPageChosen />
+    <LandingPage />
+    {/* <FlashingPageChosen /> */}
+    {/* <WaitingPage /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

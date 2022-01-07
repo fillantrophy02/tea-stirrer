@@ -1,9 +1,9 @@
 import React from 'react';
 import { ListGroup, Card, Stack, Button, Container, Row, Col, Image, Form } from 'react-bootstrap';
 import './WaitingPage.css';
-import { QuestionCircle } from 'react-bootstrap-icons';
-import NeonButton from '../components/NeonButton'; // don't use {} when importing class components!!!
-import TeapotImage from '../assets/placeholder-teapot.png';
+import NeonButton from '../components/NeonButton';
+import NeonImage from '../components/NeonImage';
+import TeacupImage from '../assets/teacup-rotated.png';
 
 class WaitingPage extends React.Component {
     constructor(props) {
@@ -14,7 +14,9 @@ class WaitingPage extends React.Component {
         return (
             <Container>
                 <Row>
-                    <Col>[Logo]</Col>
+                    <Col>
+                        <NeonImage style={{width: "40%"}} image={TeacupImage}/>
+                    </Col>
                 </Row>
                 <Row style={{ paddingTop: "3rem"}}>
                     <Col>

@@ -2,8 +2,11 @@ import React from 'react';
 import { Card, Stack, Button, Container, Row, Col, Image } from 'react-bootstrap';
 import './LandingPage.css';
 import { QuestionCircle } from 'react-bootstrap-icons';
+import NeonImage from '../components/NeonImage';
 import NeonButton from '../components/NeonButton'; // don't use {} when importing class components!!!
-import TeapotImage from '../assets/placeholder-teapot.png';
+import StartGameButton from '../assets/start-game.png';
+import JoinGameButton from '../assets/join-game.png';
+import TeacupImage from '../assets/teacup-rotated.png';
 
 class LandingPage extends React.Component {
     constructor(props) {
@@ -12,26 +15,25 @@ class LandingPage extends React.Component {
 
     render() {
         return (
-            <div className="chosen-background">
+            <div>
             <Container>
                 <Row>
-                    <Col>Hi, L</Col>
-                    <Col xs={2}> 
-                        <Button className="question-button">
-                            <QuestionCircle size={15}/>
-                        </Button>
+                    <Col>LYN</Col>
+                    <Col><div style={{textAlign: "right"}}>?</div></Col>
+                </Row>
+                <Row style={{ paddingTop: "30px" }}>
+                    <Col>
+                        <NeonImage style={{width: "100%"}} image={TeacupImage} />
                     </Col>
                 </Row>
                 <Row>
-                    <Col>
-                        <Image src={TeapotImage} alt="[image.png]" />
-                    </Col>
+                    [TEA STIRRER]
                 </Row>
-                <Row className="bottom-row">
+                <Row style={{ marginTop: "-10px" }}>
                     <Col>
-                        <Stack gap={2}>
-                            <NeonButton text="JOIN GAME"/>
-                            <NeonButton text="START A NEW GAME"/>
+                        <Stack gap={0}>
+                            <NeonImage width="100%" image={StartGameButton} />
+                            <NeonImage style={{width:"91%", marginLeft:"10px", marginTop:"-30px"}} image={JoinGameButton} />
                         </Stack>
                     </Col>
                 </Row>

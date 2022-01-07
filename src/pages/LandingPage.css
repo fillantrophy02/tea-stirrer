@@ -1,3 +1,14 @@
+body {
+    background-color: #0B0A28;
+    font-size: 26px;
+    color: #fff;
+    text-shadow: 0 0 3.5px #fff,
+        0 0 2.5px #fff,
+        0 0 7.5px #fff,
+        0 0 10.5px #ff75ac,
+        0 0 20.5px #ff75ac,
+        0 0 23px #ff75ac;
+}
 
 .question-button {
     border-style: none;
@@ -10,17 +21,3 @@
     padding-bottom: 0.5rem;
 }
 
-.bottom-row {
-    position: absolute;
-    bottom: 2rem;
-    width: 100%;
-}
-
-.chosen-background {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    background-color: #114E7E;
-}
