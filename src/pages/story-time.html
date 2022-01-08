@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <style> 
+        body {
+            font-family: sans-serif;
+            display: grid;
+            height: 100vh;
+            place-items: center;
+            background-color: #0B0A28;
+            }
+        .container {
+                position: relative;
+                text-align: center;
+                color: white;
+                margin-bottom: 50%;
+                
+                }
+        .question {
+            color: #000;
+            position: absolute;
+            top: 47.7%;
+            left: 48%;
+            transform: translate(-50%, -30%);
+            text-shadow: 0 0 7px #fff,
+                        0 0 5px #fff,
+                        0 0 15px #fff,
+                        0 0 21px #FFF7EB,
+                        0 0 41px #FFF7EB,
+                        0 0 46px #FFF7EB;
+            font-size: 100px;
+        }
+        .img1 {
+          position: absolute;
+          top: 90%;
+          left: 0;
+        }
+        .img2 {
+          position: absolute;
+          top: 125%;
+          left: 25%;
+        }
+</style>
+</head>
+<body>
+    <div class="container">
+        <img src="../assets/question-b.png" alt="border-timer" style="width:100%;">
+
+        <p class="question"> Do I really like ____? </p>
+
+        <img class = "img1" src="../assets/player-response-fak.png" alt="border-timer" style="width: 900px;height: 450px;">
+        <a href="./LandingPage.js"><img class = "img2" src="./static/quit.png" alt="border-timer" style="width:45%;"> </a>
+
+
+        
+    </div>
+</body>
+</html>

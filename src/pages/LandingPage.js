@@ -45,15 +45,19 @@ class LandingPage extends React.Component {
                 <Row style={{ marginTop: "-10px" }}>
                     <Col>
                         <Stack gap={0}>
+                            <a href="./WaitingPage.js">
                             <NeonImage style={{
                                 width: "170%",
                                 marginLeft: "-52px"
                             }} image={StartGameButton} />
+                            </a>
+                            <a href="./WaitingPage.js">
                             <NeonImage style={{
                                 width:"155%", 
                                 marginLeft:"-45px", 
                                 marginTop:"-30px"
                             }} image={JoinGameButton} />
+                            </a>
                         </Stack>
                     </Col>
                 </Row>
@@ -64,3 +68,4 @@ class LandingPage extends React.Component {
 }
 
 export default LandingPage;
+// yeet
