@@ -42,11 +42,9 @@ class WaitingPage extends React.Component {
                 <Row className="bottom-row">
                     <Col>
                         <Stack gap={1}>
-                            {/* <Link to="./responeses-loading.html"> */}
-                                <a href="E:/Personal/tea-stirrer/src/pages/responses-loading.html">
+                            <Link to="/flashing-page-chosen">
                                 <NeonButton text="START GAME"/>
-                                </a>
-                                {/* </Link> */}
+                                </Link>
                         </Stack>
                     </Col>
                 </Row>

@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# Tea Stirrer: Card Game for Socializing
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A surefire tool to turn awkward conversations into steamy tea spilling sessions.
 
-## Available Scripts
+### How Our Game Works
 
-In the project directory, you can run:
+Oftentimes, people have questions at the tip of their tongue just awaiting to engage in discussions of social and personal issues. Yet, with the fear of leaving a bad impression on others with their sudden ‘intrusive’ questions, people become hesitant with their questions. Tea Stirrer helps ask all the right questions. 
 
-### `npm start`
+In groups of 4 to 5, players join a common game room and are randomly chosen to answer juicy questions while their friends fan the fire by adding their own cheeky question inputs. Players are able to have fun getting to know each other better, while stirring tea. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+An interesting twist to the game would be that every player gets one chance to press the ‘PANIC!’ button. While other players are inputting their answers to the question blank, the chosen one is able to view the various inputs and decide if they wish to pose the question to another player instead while remaining unaware of the actual question at hand. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Tea Stirrer encourages continued offline conversations during such “awkward” gatherings by acting as an initial question prompters to alleviate the awkward atmosphere that is usually present at the beginning of such gatherings. We hope that our spicy and spot-on questions will push further discussions and kick off the conversations for more meaningful exchanges eventually. 
 
-### `npm test`
+The concept of relating such discussions to ‘tea’ originates from the modern slang ‘spill the tea’. Such use of modern slang is an interesting addition to the game, creating a connection with the users.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### What’s Next for Tea Stirrer
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The game can be expanded to include more card packs of various themes, such as Icebreakers, or questions that extend to understand more social relationships. This will allow users to choose a suitable card pack for their social setting. This will allow our game to fulfill our purpose more effectively such that players are able to obtain and provide information as targeted.
