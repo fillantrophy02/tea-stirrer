@@ -1,0 +1,19 @@
+.question-card-overlay {
+    font-size: 16px;
+    text-align: center;
+    line-height: 260px;
+    border: none;
+    color: white;
+}
+
+.question-card {
+    height: auto;
+    margin: auto;
+    background-color: rgba(0,0,0,0);
+    border: none;
+}
+
+.question-image {
+    width: 100%;
+    margin: auto;
+}

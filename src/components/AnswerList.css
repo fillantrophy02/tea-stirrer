@@ -1,0 +1,20 @@
+.player-card-overlay {
+    font-size: 16px;
+    text-align: center;
+    line-height: auto;
+    border: none;
+    color: white;
+}
+
+.player-card {
+    width: 85%;
+    height: auto;
+    margin: auto;
+    background-color: rgba(0,0,0,0);
+    border: none;
+}
+
+.player-image {
+    width: 100%;
+    margin: auto;
+}
