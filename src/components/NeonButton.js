@@ -11,10 +11,10 @@ class NeonButton extends React.Component {
     render() {
         return (
             // <Button className="neon-button">{ this.props.text }</Button>
-            <Card className="chosen-card">
+            <Card className="chosen-card" style={this.props.cardStyle}>
                 <Card.Img className="chosen-image" src={ButtonImage}></Card.Img>
                 <Card.ImgOverlay>
-                    <Card.Text className="chosen-card-overlay">
+                    <Card.Text style={this.props.textStyle} className="chosen-card-overlay">
                         {this.props.text}
                     </Card.Text>
                 </Card.ImgOverlay>

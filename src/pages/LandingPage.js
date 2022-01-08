@@ -9,6 +9,8 @@ import JoinGameButton from '../assets/join-game.png';
 import TeacupImage from '../assets/teacup-rotated.png';
 import QuestionMarkIcon from '../assets/question-mark.png';
 import ProfileIcon from '../assets/profile.png';
+import {Link} from 'react-router-dom';
+import GameTitleImage from '../assets/game-title.png'
 
 class LandingPage extends React.Component {
     constructor(props) {
@@ -39,25 +41,34 @@ class LandingPage extends React.Component {
                         }} image={TeacupImage} />
                     </Col>
                 </Row>
-                <Row>
-                    [TEA STIRRER]
+                <Row style={{ paddingTop: "0px"}}>
+                    <Col>
+                        {/* <div style={{marginLeft: "22px"}}className="game-name">
+                        TEA STIRRER
+                        </div> */}
+                        <NeonImage style={{
+                                width: "200%",
+                                marginLeft: "-75px"
+                            }}image={GameTitleImage} />
+                    </Col>
                 </Row>
-                <Row style={{ marginTop: "-10px" }}>
+                <Row style={{ marginTop: "40px" }}>
                     <Col>
                         <Stack gap={0}>
-                            <a href="./WaitingPage.js">
+                            <Link to="/waiting-page">
                             <NeonImage style={{
-                                width: "170%",
-                                marginLeft: "-52px"
+                                marginTop: "-30px",
+                                width: "150%",
+                                marginLeft: "-40px"
                             }} image={StartGameButton} />
-                            </a>
-                            <a href="./WaitingPage.js">
+                            </Link>
+                            <Link to="/waiting-page">
                             <NeonImage style={{
-                                width:"155%", 
-                                marginLeft:"-45px", 
-                                marginTop:"-30px"
+                                width:"137%", 
+                                marginLeft:"-32px", 
+                                marginTop:"-40px"
                             }} image={JoinGameButton} />
-                            </a>
+                            </Link>
                         </Stack>
                     </Col>
                 </Row>

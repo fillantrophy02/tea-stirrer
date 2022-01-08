@@ -21,3 +21,14 @@ body {
     padding-bottom: 0.5rem;
 }
 
+.game-name {
+    margin: auto;
+    font-size: 40px;
+    text-shadow: 0 0 3.5px #fff,
+        0 0 2.5px #fff,
+        0 0 7.5px #fff,
+        0 0 10.5px #ff75ac,
+        0 0 20.5px #ff75ac,
+        0 0 23px #ff75ac;
+}
+

@@ -7,6 +7,7 @@ import TeacupImage from '../assets/teacup-rotated.png';
 import PlayersBar from '../assets/players-bar.png';
 import PlayersName from '../assets/players-name.png';
 import PlayersList from '../components/PlayersList';
+import {Link} from 'react-router-dom';
 
 class WaitingPage extends React.Component {
     constructor(props) {
@@ -41,7 +42,11 @@ class WaitingPage extends React.Component {
                 <Row className="bottom-row">
                     <Col>
                         <Stack gap={1}>
-                            <NeonButton text="START GAME"/>
+                            {/* <Link to="./responeses-loading.html"> */}
+                                <a href="E:/Personal/tea-stirrer/src/pages/responses-loading.html">
+                                <NeonButton text="START GAME"/>
+                                </a>
+                                {/* </Link> */}
                         </Stack>
                     </Col>
                 </Row>

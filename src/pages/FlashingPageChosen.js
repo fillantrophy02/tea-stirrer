@@ -4,13 +4,22 @@ import FlashingCard from '../components/FlashingCard';
 import { unmountComponentAtNode } from 'react-dom';
 import { Card, Container } from 'react-bootstrap';
 import NeonButton from '../components/NeonButton';
+import NeonImage from '../components/NeonImage';
+import ChosenImage from '../assets/chosen-one-target.png';
 
 const ChosenPage = 
     <Container>
         <div className="chosen-background">
-            <div style={{color: "white"}}>[Logo.png]</div>
-            <NeonButton text="YOU ARE THE CHOSEN ONE" />
-        </div>;
+            <NeonImage style={{
+                paddingTop: "80px",
+                marginLeft: "-60px",
+                width: "280px",
+            }} image={ChosenImage} />
+            <NeonButton 
+                cardStyle={{marginTop: "-20px", width: "200px", height: "auto"}}
+                textStyle={{marginTop: "-5px", fontFamily: "Papyrus", lineHeight: "1.5rem"}}
+                text="YOU ARE THE CHOSEN ONE" />
+        </div>
     </Container>
 
 class FlashingPageChosen extends React.Component {
